@@ -1,36 +1,77 @@
-Customer Movement Tracking and Path Analysis System Using YOLOv8
-Project Description:
+# 🧠 Customer Movement Tracking and Path Analysis System Using YOLOv8
 
-This project aims to develop an intelligent customer tracking and movement path analysis system using YOLOv8 deep learning model to help businesses understand customer behavior inside stores, malls, and commercial spaces. The system detects customers in real-time video streams and tracks their movement paths to analyze foot traffic patterns and engagement zones.
+An AI-powered computer vision system that detects, tracks, and analyzes customer movement patterns in real time using YOLOv8 deep learning model. This project helps businesses understand customer behavior, optimize store layouts, improve product placement, and enhance overall customer experience through automated video analytics.
 
-Using computer vision and artificial intelligence, the system identifies individual customers, assigns unique tracking IDs, and records their movement trajectories across different areas of the store. This data helps business owners optimize product placement, improve store layout, and enhance customer experience.
+---
 
-The project is implemented using Python, YOLOv8, OpenCV, and Deep Learning techniques, enabling high-speed detection and accurate tracking even in crowded environments. The collected movement data can be visualized as heatmaps or path graphs to support data-driven business decisions.
+## 🚀 Project Overview
 
-This solution eliminates the need for manual observation and provides automated, real-time analytics for retail management and marketing strategy improvement.
+This system uses real-time video streams from CCTV cameras or live webcams to detect customers, assign unique tracking IDs, and record their movement trajectories. The collected data is processed to generate visual insights such as movement paths, footfall distribution, and heatmaps for data-driven retail decision making.
 
-Key Features:
+By eliminating manual observation, the system enables automated, accurate, and scalable customer analytics for smart retail environments.
 
-*Real-time customer detection using YOLOv8
+---
 
-*Unique ID-based multi-object tracking
+## ✨ Key Features
 
-*Customer path visualization and trajectory mapping
+- Real-time customer detection using YOLOv8  
+- Unique ID-based multi-object tracking  
+- Customer movement path visualization  
+- Trajectory mapping and zone analysis  
+- Footfall density monitoring  
+- Heatmap generation for activity zones  
+- Works with CCTV footage and live camera streams  
+- High accuracy even in crowded environments  
+- GPU acceleration support (optional)  
 
-*Footfall and area-wise movement analysis
+---
 
-*Heatmap generation for customer activity zones
+## 🏗 System Architecture
 
-*Works with CCTV and live camera feeds
+Video Input (CCTV / Camera)
+│
+▼
+YOLOv8 Object Detection
+│
+▼
+Multi-Object Tracking Module
+│
+▼
+Movement Path Extraction
+│
+▼
+Data Visualization & Analytics
+(Heatmaps, Trajectories, Graphs)
 
-*Technologies Used:
 
-*Programming Language: Python
+---
 
-*AI Model: YOLOv8 (Ultralytics)
+## 🛠 Technologies Used
 
-*Libraries: OpenCV, PyTorch, NumPy
+### Programming Language
+- Python  
 
-*Visualization Tools: Matplotlib, Seaborn
+### Deep Learning Model
+- YOLOv8 (Ultralytics)  
 
-*Hardware Support: GPU (Optional)
+### Libraries & Frameworks
+- OpenCV  
+- PyTorch  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+
+### Hardware Support
+- CPU (Basic Execution)  
+- GPU (CUDA Supported – Recommended for High Performance)  
+
+---
+
+## 📜 License
+
+Developed by **Pranav Thanavel**  
+For academic and educational purposes.
+
+---
+
+⭐ If you find this project helpful, consider giving it a star on GitHub!
